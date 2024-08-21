@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationform</title>
+</head>
+<body bgcolor="#E6E6FA">
+    <div >
+       <h1 align="center">Student Registration Form</h1>
+       <hr style=" width:700px;height:2px"/>
+       <table align="center" cellspacing="10px">
+        <tbody>
+            <form action="acction.php" method="post">
+                <tr>
+                    <td>
+        <label for="fname"><font size="4">Firstname:</font></label></td>
+        <tr><td><input type="text" id="fname" placeholder="Enter your firstname" style="height:30px; width:700px"size="100" required></td></tr>
+        </tr><br/>
+        
+        <tr>
+            <td>
+<label for="fname"><font size="4">Lastname:</font></label></td>
+<tr><td><input type="text" id="fname" placeholder="Enter your lastname" style="height:30px; width:700px" size="100" required></td></tr>
+</tr>
+
+<tr>
+  <td>
+<label for="course"><font size="4">Course:</font></label>
+<select id="course">
+    <option>Computer Science and Engineering</option>
+    <option>Agricultural</option>
+    <option>Information Technology</option>
+    <option>AIDS</option>
+</select></td>
+</tr>
+
+<tr>
+    <td>
+  <label for="gen"><font size="4">Gender:</font></label></td>
+
+  <tr>
+  <td>
+    <input type="radio" name="gender"id="gen">Male
+    <input type="radio" name="gender" id="gen">Female
+    <input type="radio" name="gender" id="gen">Others
+</td>
+  </tr>
+
+
+  <tr>
+    <td>
+<label for="ph"><font size="4">Phone:</font></label></td>
+<tr><td><input type="text" id="ph" style="height:30px; width:700px"placeholder="Enter your Mobile Number" maxlength="10" size="100" required></td></tr>
+</tr><br/>
+
+<tr>
+    <td>
+<label for="add"><font size="4">Current Address:</font></label></td>
+<tr>
+    <td>
+    <textarea id="add" cols="93" rows="5">Enter your address here...</textarea></td>
+</tr>
+</tr>
+
+<tr>
+    <td>
+<label for="email"><font size="4">Email:</font></label></td>
+<tr><td><input type="email" id="fname" style="height:30px; width:700px" placeholder="Enter your email address" size="100" required></td></tr>
+</tr>
+
+<tr>
+    <td>
+<label for="pass"><font size="4">Password:</font></label></td>
+<tr><td><input type="password" style="height:30px; width:700px" id="pass" placeholder="Enter your password" size="100" required></td></tr>
+</tr>
+
+<tr>
+    <td>
+<label for="rpass"><font size="4">Re-type Password:</font></label></td>
+<tr><td><input type="password" id="rpass" style="height:30px; width:700px" placeholder="Re-type your password" size="100" required></td></tr>
+</tr>
+
+<tr align="center" ><td>
+<input type="submit" value="Register" style="height:30px; width:200px;color:blue" ></td></tr>
+        
+        </form>
+    </tbody>
+</table>
+    </div>
+</body>
+</html>
